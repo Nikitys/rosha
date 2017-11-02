@@ -1,0 +1,30 @@
+- var itemsMenu = ["Главная","About","Портфолио"]
+header.header
+    .container
+        .header-top 
+            .header-socials
+                ul.header-socials-list
+                    li.header-socials-item
+                        a.header-socials-item__link(href="#")
+                            i.fa.fa-vk(aria-hidden="true")
+                    li.header-socials-item
+                        a.header-socials-item__link(href="#")
+                            i.fa.fa-github-alt(aria-hidden="true")          
+                    li.header-socials-item
+                        a.header-socials-item__link(href="#")
+                            i.fa.fa-linkedin(aria-hidden="true")
+            .header-menu
+                a.header-menu__link(href="#")  
+                    i.fa.fa-bars(aria-hidden="true")
+                nav.header-menu-main
+                    .header-menu-main-close
+                        a.header-menu-main-close__link
+                            i.fa.fa-times(aria-hidden="true")
+                    ul.header-menu-main-list
+                        each item in itemsMenu
+                            li.header-menu-main-item
+                                a.header-menu-main-item__link(href="#")= item
+        .header-main
+            img.header-main__img(src="assets/images/pug.svg", alt="")
+            .header-main__title Никита Толкач  
+            .header-main__title1 Личный сайт веб-разработчика

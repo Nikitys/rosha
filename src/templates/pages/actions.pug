@@ -1,0 +1,32 @@
+extends ../template
+
+block variables
+    - var title = 'Страница акций'
+
+block content
+    .actions-head
+        .container
+            include ../common/bradcrumbs
+    .actions-main
+        .container
+            h1.actions-main__title Акции и новости
+            ul.actions-main-list
+                -for(var i = 0; i<4; i++){
+                    li.actions-main-item
+                        .actions-main-item__img(style="background:url('assets/images/action-item.jpg') center center no-repeat")
+                        .actions-main-item-desc
+                            .actions-main-item__date 29 октября 2017 — Новость
+                            .actions-main-item__title В КП «Рощинский хутор» установили шлагбаум!
+                            .actions-main-item__text Мы уже писали, как быстро и динамично строится и развивается коттеджный поселок «Рощинский хутор», на тот момент были почти готовы дороги, но техника еще трудилась...
+                            .actions-main-item-but
+                                a(href="#").actions-main-item-but__link Читать дальше
+                -}
+            .actions-bot-but
+                a(href='#').actions-bot-but__link Показать больше новостей
+
+block footer
+    include ../common/footer
+
+
+
+

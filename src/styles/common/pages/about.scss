@@ -1,0 +1,171 @@
+.about{
+    &-bg{
+        background: url('../images/about-bg.jpg') center center no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height:400px;
+        content: "";
+    }
+    &-main{
+        margin-bottom: 30px;
+        &-block{
+            margin-top: 124px;
+            background: #fff;
+            max-width: 395px;
+            padding: 30px;
+            box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+        }
+        &-left{
+            &__title{
+                font-family: 'MuseoSansMedium';
+                font-size: 24px;
+                color: #222222;
+                margin-bottom: 15px;
+                & span{
+                    color: #F07C00;
+                }
+            }
+            &__text{
+                color: #595959;
+                margin-bottom: 30px;
+            }
+            &-footer{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &-left{
+                    display: flex;
+                    align-items: center;
+                    &-img{
+                        width: 56px;
+                        height: 56px;
+                        box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 15px; 
+                    }
+                    &__text{
+                        font-size: 16px;
+                        color:#222;
+                        & span{
+                            color: #7FA61D;
+                            font-family: 'MuseoSansMedium'
+                        }
+                    }
+                }
+                &-right{
+                    padding: 18px 36px;
+                    font-family: 'MuseoSansMedium';
+                    border: 1px solid #DB3F02;
+                    border-radius: 2px; 
+                    color: #222;
+                    transition: all .3s;
+                    &:hover{
+                        border: 1px solid #DB3F02;
+                        background: #DB3F02;
+                        color:#fff;
+                    }
+                }
+            }
+        }
+        &-footer{
+            max-width: 455px;
+            @include laptop{
+                margin-bottom: 30px;
+            }
+            &-block{
+                &__title{
+                    color: #222222;
+                    font-size: 24px;
+                    margin-top: 45px;
+                    margin-bottom: 15px;
+                }
+                &__text{
+                    color: #595959;
+                    font-size: 14px;
+                }
+            }
+            &-but{
+                font-size: 16px;
+                color:#fff;
+                font-family: 'MuseoSansMedium';
+                background: #DB3F02;
+                padding: 18px 36px;
+                display: inline-block;
+                margin-top: 30px;
+                border: 1px solid #DB3F02;
+                transition: all .3s;
+                &:hover{
+                    background: #fff;
+                    color:#222;
+                }
+            }
+        }
+    }
+    &-right{
+        position: absolute;
+        right: 0;
+        top: 300px;
+        @include laptop{
+            position: static;
+            left: auto;
+            right: auto;
+        }
+        &-item{
+            position: relative;
+            padding-left: 97px;
+            margin-bottom: 44px;
+            &__img{
+                width: 56px;
+                height: 56px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #fff;
+                border-radius: 50%;
+                box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15); 
+                position: absolute;
+                left: 0;
+            }
+            &-desc{
+                &__title{
+                    font-size: 24px;
+                    color:#222;
+                    font-family: 'MuseoSansMedium';
+                    margin-bottom: 15px;
+                }
+                &__title1{
+                    font-size: 14px;
+                    color:#222;
+                    margin-bottom: 5px;
+    
+                }
+            }
+        }
+        &-foto{
+            background: url('../images/but-foto-bg.jpg') center center no-repeat;
+            display: flex;
+            justify-content: center;
+            height: 360px;
+            align-items: flex-end;
+            color:#fff;
+            background-size:cover;
+            &:hover{
+                & .about-right-foto__text{
+                    background: #fff;
+                    color:#222;
+                }
+            }
+            &__text{
+                transition: all .3s;
+                padding: 18px 36px;
+                border: 1px solid #fff;
+                margin-bottom:40px; 
+            }
+        }
+    }
+}

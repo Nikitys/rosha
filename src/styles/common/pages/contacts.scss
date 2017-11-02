@@ -1,0 +1,62 @@
+.contacts{
+    &-map__img{
+        max-width: 100%;
+    }
+    &__title{
+        font-family: 'MuseoSansMedium';
+        font-size: 36px;
+        color:#222;
+        & span{
+            color:#F07C00;
+        }
+        margin-bottom: 35px;
+        @include phones{
+            text-align: center;
+        }
+    }
+    &-main{
+        display: flex;
+        margin-bottom: 60px;
+        &__img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 56px;
+            width: 56px;
+            background: #fff;
+            box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+            border-radius: 50%;
+            margin-right: 35px;
+            @include phones{
+                display: none;
+            }
+        }
+        &-block{
+            flex: 0 1 260px;
+            margin-right: 30px;
+            @include phones{
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+            &__title{
+                font-size: 24px;
+                color:#222;
+                font-family: 'MuseoSansMedium';
+                margin-bottom: 15px;
+            }
+            &__text{
+                font-size: 14px;
+                color: #595959;
+            }
+            &-list{
+    
+            }
+            &-item{
+                list-style: disc inside;
+                font-size: 14px;
+                color: #595959;
+            }
+        }
+    }
+}

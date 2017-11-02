@@ -1,0 +1,36 @@
+<svg width="20" height="22" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>pdf</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6726 -74)">
+<g id="pdf">
+<g id="Group">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(6727 74)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(6727 93)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(6733 83)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(6740 83)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(6726 83)" fill="#F07C00"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1.99997 2.00001L 11.9999 2.00001L 11.9999 5.99999L 16 5.99999L 16 6.99997L 18 6.99997L 18 4.58601L 13.414 0L 1.99997 0C 0.896999 0 -8.58306e-09 0.897983 -8.58306e-09 2.00001L -8.58306e-09 7.00002L 2.00001 7.00002L 2.00001 2.00001L 1.99997 2.00001Z"/>
+<path id="path1_fill" d="M 16 0.999983L 1.99997 0.999983L 1.99997 6.98089e-07L -8.58306e-09 6.98089e-07L -8.58306e-09 0.999983C -8.58306e-09 2.103 0.896999 3 2.00001 3L 16 3C 17.103 3 18 2.103 18 0.999983L 18 6.98089e-07L 16 6.98089e-07L 16 0.999983Z"/>
+<path id="path2_fill" d="M 3.49044e-07 0L 3.49044e-07 8L 2.00001 8C 4.20599 8 5.99999 6.20601 5.99999 4.00003C 5.99999 1.79404 4.20599 0 1.99997 0L 3.49044e-07 0ZM 3.99998 3.99998C 3.99998 5.10299 3.10298 5.99999 1.99997 5.99999L 1.99997 2.00001C 3.10298 2.00001 3.99998 2.898 3.99998 3.99998Z"/>
+<path id="path3_fill" d="M 5.99999 2.00001L 5.99999 0L 2.00001 0C 0.896998 0 0 0.897983 0 2.00001L 0 8L 2.00001 8L 2.00001 5.00001L 5.00001 5.00001L 5.00001 3L 2.00001 3L 2.00001 2.00001L 5.99999 2.00001Z"/>
+<path id="path4_fill" d="M 2.00001 5.99999L 3 5.99999C 4.65398 5.99999 5.99999 4.65398 5.99999 3C 5.99999 1.34601 4.65398 0 3 0L 8.58306e-09 0L 8.58306e-09 8L 2.00001 8L 2.00001 5.99999ZM 2.00001 2.00001L 3 2.00001C 3.55101 2.00001 3.99998 2.448 3.99998 3C 3.99998 3.552 3.55096 3.99998 3 3.99998L 2.00001 3.99998L 2.00001 2.00001Z"/>
+</defs>
+</svg>

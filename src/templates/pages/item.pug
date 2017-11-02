@@ -1,0 +1,75 @@
+extends ../template
+
+block variables
+    - var title = 'Страница участка'
+
+block content
+    .uch
+        .container
+            include ../common/bradcrumbs
+            .uch-main
+                .uch-left
+                    .uch__title Участок №53
+                    .uch__post-title Этот участок может стать вашим
+                    .uch-left-list
+                        .uch-left-item
+                            .uch-left-item__img
+                                img(src="assets/images/icons/gps.svg", alt=" ")
+                            .uch-left-item__title 12 соток
+                        .uch-left-item
+                            .uch-left-item__img
+                                img(src="assets/images/icons/wallet1.svg", alt=" ")
+                            .uch-left-item__title 1 236 000 руб.
+                            .uch-left-item__text Беспроцентная рассрочка <br> от 1 823 руб. в день
+                    .uch-left-but
+                        a(href="#").about-main-footer-but Записаться на просмотр
+                .uch-right
+                    img(src="assets/images/icons/poselok.svg", alt="").uch-right__img
+                    .uch-right-fot
+                        a(href="#").uch-right-fot-link
+                            img(src="assets/images/icons/pdf.svg", alt=" ").uch-right-fot-link__img
+                            .uch-right-fot-link__text Сохранить в .pdf
+                        a(href="#").uch-right-fot-link
+                            img(src="assets/images/icons/email.svg", alt=" ").uch-right-fot-link__img
+                            .uch-right-fot-link__text Отправить на email
+    .uch-bot
+        .container
+            .uch-bot-left
+                .uch-bot-left-item
+                    .uch-bot-left__img
+                        img(src="assets/images/icons/calculator.svg", alt="")
+                    .uch-bot-left__title Калькулятор <span>беспроцентной</span> рассрочки!
+                    .uch-bot-left-block
+                        img(src="assets/images/icons/infographic.svg", alt="").uch-bot-left-block__img
+                        .uch-bot-left-block__text Двигайте ползунки в калькуляторе, <br> чтобы узнать свои условия рассрочки
+                .uch-bot-left-item.uch-bot-left-item--last
+                    .uch-bot-left__img
+                        img(src="assets/images/icons/pie-chart.svg", alt="")
+                    .uch-bot-left-bot-item
+                        .uch-bot-left-bot-item__price 120 750 руб.
+                        .uch-bot-left-bot-item__text Ежемесячный платеж
+                    .uch-bot-left-bot-item
+                        .uch-bot-left-bot-item__price 3 895 руб.
+                        .uch-bot-left-bot-item__text Ежеджевный платеж
+            .uch-bot-right
+                .page-uch-bot-right-item
+                    .page-uch-bot-right-item__title Первоночальный взнос
+                    .page-uch-bot-right-item-block
+                        #page-uch-bot-right-item-block-slide1.page-uch-bot-right-item-block-slide
+                        input#page-uch-bot-right-item-block-input1.page-uch-bot-right-item-block-input(type="text", value="20", data-min="{$max_payment*0.3}", data-max="{$max_payment}", data-add="{$electricity_price+$roads_price*$_modx->resource.tv_square}")
+                .page-uch-bot-right-item
+                    .page-uch-bot-right-item__title Период рассрочки
+                    .page-uch-bot-right-item-block
+                        #page-uch-bot-right-item-block-slide2.page-uch-bot-right-item-block-slide
+                        input#page-uch-bot-right-item-block-input2.page-uch-bot-right-item-block-input(type="text", value="20")
+                .uch-bot-right-but
+                   a(href="#").about-main-footer-but Записаться на просмотр
+
+block footer
+    include ../common/footer
+
+
+
+
+
+

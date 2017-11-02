@@ -1,0 +1,62 @@
+html{
+    @include tablets{
+        font-size: 12px;
+    }
+}
+.main-page{
+    background: url(../images/main-bg.jpg)center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    & .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    &__title1{
+        font-size: 72px;
+        text-align: center;
+        font-family: 'MuseoSansMedium';
+        color:#fff;
+        & span{
+            display: inline-block;
+            position: relative;
+            z-index: 3;
+            &:after{
+                position: absolute;
+                z-index: -1;
+                display: block;
+                width: 80%;
+                height: 26px;
+                content: '';
+                background: #F07C00;
+                top:50%;
+                left:50%;
+                transform: translate(-50%);
+            }
+        }
+    }
+    &__title2{
+        font-size: 36px;
+        color: #fff;
+        text-align: center;
+        & span{
+            display: inline-block;
+            position: relative;
+            z-index: 3;
+            &:after{
+                position: absolute;
+                z-index: -1;
+                display: block;
+                width: 80%;
+                height: 14px;
+                content: '';
+                background: #7FA61D;
+                top:50%;
+                left:50%;
+                transform: translate(-50%);
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>expand (1)</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4644 -1279)">
+<g id="expand (1)">
+<g id="Group">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(4661.29 1279)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(4644 1296.29)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(4644 1279)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(4661.29 1296.29)" fill="#F07C00"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(4651 1286)" fill="#F07C00"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0.707016 0L 0.707016 2.00002L 3.29302 2.00002L -3.66211e-07 5.29298L 1.41403 6.70702L 4.707 3.414L 4.707 6L 6.70702 6L 6.70702 0L 0.707016 0Z"/>
+<path id="path1_fill" d="M 5.29298 -3.66211e-07L 2.00002 3.29302L 2.00002 0.707016L 0 0.707016L 0 6.70702L 6 6.70702L 6 4.707L 3.414 4.707L 6.70702 1.41403L 5.29298 -3.66211e-07Z"/>
+<path id="path2_fill" d="M 6 2.00002L 6 0L 0 0L 0 6L 2.00002 6L 2.00002 3.414L 5.29298 6.70702L 6.70702 5.29298L 3.414 2.00002L 6 2.00002Z"/>
+<path id="path3_fill" d="M 4.707 3.29302L 1.41403 -3.66211e-07L -3.66211e-07 1.41403L 3.29302 4.707L 0.707016 4.707L 0.707016 6.70702L 6.70702 6.70702L 6.70702 0.707016L 4.707 0.707016L 4.707 3.29302Z"/>
+<path id="path4_fill" d="M 8.00002 -3.49045e-07L 2.00002 -3.49045e-07C 0.896016 -3.49045e-07 -3.49045e-07 0.896016 -3.49045e-07 2.00002L -3.49045e-07 8.00002C -3.49045e-07 9.10402 0.896016 10 2.00002 10L 8.00002 10C 9.10402 10 10 9.10402 10 8.00002L 10 2.00002C 10 0.897 9.10402 -3.49045e-07 8.00002 -3.49045e-07ZM 7.99702 8.00002L 2.00002 8.00002L 2.00002 2.00002L 8.00002 2.00002L 7.99702 8.00002Z"/>
+</defs>
+</svg>

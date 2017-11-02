@@ -1,0 +1,26 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>pie-chart</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6301 -495)">
+<g id="pie-chart">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(6301 495)" fill="#3F51B4"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(6301 495.28)" fill="#303F9E"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(6316.3 495)" fill="#FED500"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(6316.3 499.454)" fill="#F34336"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 16 0C 7.1775 0 0 7.1775 0 16C 0 24.8225 7.1775 32 16 32C 24.8225 32 32 24.8225 32 16C 32 7.1775 24.8225 0 16 0Z"/>
+<path id="path1_fill" d="M 20.125 30.3386C 11.3025 30.3386 4.125 23.1611 4.125 14.3386C 4.125 8.06056 7.761 2.61844 13.0363 -1.04904e-08C 5.62544 1.39406 0 7.91069 0 15.7203C 0 24.5428 7.1775 31.7202 16 31.7202C 18.5446 31.7202 20.9506 31.1204 23.0888 30.0589C 22.1276 30.2397 21.1378 30.3386 20.125 30.3386Z"/>
+<path id="path2_fill" d="M 11.7601 4.45431C 8.8845 1.69875 4.98838 0 0.700562 0C 0.465562 0 0.232563 0.0078125 2.28882e-08 0.0178125L 2.28882e-08 16.2143L 11.7601 4.45431Z"/>
+<path id="path3_fill" d="M 0.00975039 11.76L 11.4323 23.4024C 14.6659 20.4727 16.7006 16.2424 16.7006 11.5457C 16.7006 7.01106 14.8013 2.91412 11.7601 -1.75476e-07L 2.28882e-08 11.76L 0.00975039 11.76Z"/>
+</defs>
+</svg>

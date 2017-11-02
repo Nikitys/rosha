@@ -1,0 +1,52 @@
+extends ../template
+
+block variables
+  - var title = 'Страница поселка'
+
+block content
+    .poselok
+        .container
+            include ../common/bradcrumbs
+            .poselok-main
+                .poselok-main-left
+                    h1.poselok__title Выбери место для <span>идеальной загородной жизни</span>
+                    .poselok-main__text За тобой уже выехали. Быстрей нажимай <br> большую оранжевую кнопку!
+                    .poselok-main-but
+                        a(href="#").about-main-footer-but Записаться на просмотр
+                .poselok-main-right
+                    .poselok-main-right__img
+                        img(src="assets/images/icons/poselok-title.svg", alt="")
+                    .poselok-main-right__title Статусы участков
+                    ul.poselok-main-right-list
+                        li.poselok-main-right-item.poselok-main-right-item__1 <span>Свободно</span>
+                        li.poselok-main-right-item.poselok-main-right-item__2 <span>Забронированно</span>
+                        li.poselok-main-right-item.poselok-main-right-item__3 <span>Продан</span>
+    .poselok-genplan
+        .container
+            img(src="assets/images/genplan.svg", alt="").poselok-genplan__img
+    .poselok-bot
+        .container
+            ul.poselok-bot-list
+                -for (var i = 0; i < 4; i++){
+                    li.poselok-bot-item
+                        img.poselok-bot-item__img(style= "background: url('assets/images/item-bg.jpg') center center no-repeat;")
+                        .poselok-bot-item-desc
+                            .poselok-bot-item-desc-left
+                                .poselok-bot-item-desc-left__title Участок 45
+                                .poselok-bot-item-desc-left-block
+                                    img(src="assets/images/icons/plosh.svg",alt="").poselok-bot-item-desc-left-block__img
+                                    .poselok-bot-item-desc-left-block__text 12 соток
+                            .poselok-bot-item-desc-right
+                                .poselok-bot-item-desc-right-block
+                                    img(src="assets/images/icons/wallet.svg",alt="").poselok-bot-item-desc-right-block__img
+                                    .poselok-bot-item-desc-right-block__text 1 236 000 руб.
+                                .poselok-bot-item-desc-right__text Беспроцентная рассрочка <br> <span> от 9 999 руб. в день </span>
+                        .poselok-bot-item-but
+                            a(href="#").poselok-bot-item-but__link Записаться на просмотр
+                -}
+block footer
+    include ../common/footer
+
+
+
+

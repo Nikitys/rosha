@@ -1,0 +1,25 @@
+extends ../template
+
+block variables
+  - var title = 'Контакты'
+
+block content
+  .contacts
+    .container
+        include ../common/bradcrumbs
+        .contacts__title  Как добраться до посёлка <br> <span>«Рощинский хутор»</span>
+        .contacts-main
+            .contacts-main__img
+                img(src="assets/images/icons/contacts-map.svg", alt="")
+            .contacts-main-block
+                .contacts-main-block__title На машине
+                .contacts-main-block__text От северных районов Санкт-Петербурга на автомобили можно добраться до поселка за 50 минут. Расстояние до КАД от поселка 57 км, до поселка Рощино 9 км и 25 км до Зеленогорска.
+            .contacts-main-block
+                .contacts-main-block__title Общественным <br> транспортом
+                ul.contacts-main-block-list
+                    li.contacts-main-block-item от м.Парнас автобус 679
+                    li.contacts-main-block-item от м. Удельная электричка до Рощино,а далее на 125 автобусе до садоводства "Рощино"
+        .contacs-map
+            img.contacts-map__img(src="assets/images/map.jpg", alt="")
+block footer
+    include ../common/footer

@@ -1,0 +1,40 @@
+<svg width="32" height="28" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>street-view</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1866 -340)">
+<g id="street-view">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(1866 340)" fill="#7FD7FE"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(1890.73 340)" fill="#40C3FE"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(1866 355.439)" fill="#8AC24A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(1890.73 355.439)" fill="#7CB242"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(1869.91 355.439)" fill="#37474F"/>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(1881.25 357.444)" fill="#8FA3AD"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="translate(1881.25 361.912)" fill="#8FA3AD"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 28.7266 6.52906e-08L 3.27344 6.52906e-08C 1.4685 6.52906e-08 0 1.47823 0 3.29568L 0 24.7043C 0 26.5215 1.4685 28 3.27344 28L 28.7266 28C 30.5315 28 32 26.5215 32 24.7043L 32 3.29568C 32 1.47823 30.5315 6.52906e-08 28.7266 6.52906e-08Z"/>
+<path id="path1_fill" d="M 4 6.52906e-08L 0 6.52906e-08C 1.80494 6.52906e-08 3.27344 1.47823 3.27344 3.29568L 3.27344 24.7043C 3.27344 26.5215 1.80494 28 0 28L 4 28C 5.80494 28 7.27344 26.5215 7.27344 24.7043L 7.27344 3.29568C 7.27344 1.47823 5.80494 6.52906e-08 4 6.52906e-08Z"/>
+<path id="path2_fill" d="M 0 2.76525e-07L 0 9.26542C 0 11.0826 1.4685 12.5611 3.27344 12.5611L 28.7266 12.5611C 30.5315 12.5611 32 11.0826 32 9.26542L 32 2.76525e-07L 0 2.76525e-07Z"/>
+<path id="path3_fill" d="M 3.27344 2.76525e-07L 3.27344 9.26542C 3.27344 11.0826 1.80494 12.5611 0 12.5611L 4 12.5611C 5.80494 12.5611 7.27344 11.0826 7.27344 9.26542L 7.27344 2.76525e-07L 3.27344 2.76525e-07Z"/>
+<path id="path4_fill" d="M 8.2016e-08 12.5611L 24.2407 12.5611L 16.5987 2.76525e-07L 7.642 2.76525e-07L 8.2016e-08 12.5611Z"/>
+<path id="path5_fill" d="M 0.75 2.89454C 0.335687 2.89454 0 2.55644 0 2.13944L 0 0.755097C 0 0.338095 0.335687 -3.0725e-08 0.75 -3.0725e-08C 1.16431 -3.0725e-08 1.5 0.338095 1.5 0.755097L 1.5 2.13944C 1.5 2.55644 1.16431 2.89454 0.75 2.89454Z"/>
+<path id="path6_fill" d="M 0.75 3.58671C 0.335687 3.58671 0 3.24862 0 2.83161L 0 0.755097C 0 0.338095 0.335687 -3.0725e-08 0.75 -3.0725e-08C 1.16431 -3.0725e-08 1.5 0.338095 1.5 0.755097L 1.5 2.83161C 1.5 3.24862 1.16431 3.58671 0.75 3.58671Z"/>
+</defs>
+</svg>

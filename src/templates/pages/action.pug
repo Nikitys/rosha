@@ -1,0 +1,42 @@
+extends ../template
+
+block variables
+    - var title = 'Страница акции (одной)'
+
+block content
+    .action-header
+        .container
+            include ../common/bradcrumbs
+    .action
+        .container
+            .action-main
+                .action-main__date 29 октября 2017 — Новость
+                h1.action-main__title В КП «Рощинский хутор» установили шлагбаум!
+                .action-main-text
+                    p.action-main-text__p Мы уже писали, как быстро и динамично строится и развивается коттеджный поселок «Рощинский хутор», на тот момент были почти готовы дороги, но техника еще трудилась. Сегодня же, по прошествии еще одного месяца, работы уже завершены полностью — щебень отсыпан, а участки выровнены.
+                    p.action-main-text__p Для компании Гранат одна из главных задач — это обеспечение не только комфортного, но и безопасного места для загородной жизни и отдыха. В поселке «Рощинский» хутор организован контрольно-пропускной пункт, установлен шлагбаум и в скором времени будет огорожена территория.
+                    p.action-main-text__p Коттедж в гранатовом поселке на Карельском перешейке — это комфорт и спокойствие каждый день! Выбрать участок Вы можете на странице КП «Рощинский хутор»
+            .action-bot
+                .action-bot-title
+                    .action-bot-title__img
+                        img(src="assets/images/icons/action-title.svg", alt="")
+                    .action-bot-title__text Другие новости нашего посёлка
+                ul.actions-main-list
+                    -for(var i = 0; i < 2; i++){
+                    li.actions-main-item
+                        .actions-main-item__img(style="background:url('assets/images/action-item.jpg') center center no-repeat")
+                        .actions-main-item-desc
+                            .actions-main-item__date 29 октября 2017 — Новость
+                            .actions-main-item__title В КП «Рощинский хутор» установили шлагбаум!
+                            .actions-main-item__text Мы уже писали, как быстро и динамично строится и развивается коттеджный поселок «Рощинский хутор», на тот момент были почти готовы дороги, но техника еще трудилась...
+                            .actions-main-item-but
+                                a(href="#").actions-main-item-but__link Читать дальше
+                    -}
+block footer
+    include ../common/footer
+
+
+
+
+
+

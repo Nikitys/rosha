@@ -1,0 +1,194 @@
+.poselok{
+    &__title{
+        font-family: 'MuseoSansMedium';
+        font-size: 36px;
+        color:#222;
+        & span{
+            color:#F07C00;
+        }
+        margin-bottom: 35px;
+    }
+    &-main{
+        display:flex;
+        justify-content: space-between;
+        @include laptop{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        @include tablets{
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+        }
+        @include phones{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__text{
+            font-size: 16px;
+            color: #595959;
+            margin: 20px 0 0;
+        }
+        &-left{
+            flex:0 1 560px;
+            @include laptop{
+                margin-bottom:20px;
+                text-align: center;
+            }
+            @include tablets{
+                text-align: left;
+            }
+            @include phones{
+                text-align: center;
+            }
+        }
+        &-right{
+            width: 160px;
+            padding-left: 97px;
+            position:relative;
+            flex:0 1 256px;
+            &__img{
+                display:flex;
+                justify-content: center;
+                align-items:center; 
+                width:56px;
+                height: 56px;
+                background:#fff;
+                border-radius: 50%;
+                position:absolute;
+                left: 0;
+                top: 0; 
+                box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+                & img{
+                    max-width:30px;
+                }
+            }
+            &__title{
+                color: #222222;
+                font-size: 24px;
+                font-family: 'MuseoSansMedium';
+                margin-bottom:15px;
+            }
+            &-list{
+
+            }
+            &-item{
+                display: block;
+                margin-bottom:10px;
+                font-size:16px;
+                color:#222;
+                &:before{
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    content:'';
+                    background:#7FA61D;
+                    margin-right: 8px;
+                }
+                &__2{
+                    &:before{
+                        background: #FEC007;
+                    }
+                    
+                }
+                &__3{
+                    &:before{
+                        background: #C0392B;
+                    }
+                }
+            }
+        }
+        margin-bottom:15px;
+    }
+    &-genplan{
+        margin-bottom:100px;
+        &__img{
+            max-width:100%;
+        }
+    }
+    &-bot{
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @include tablets{
+                justify-content: space-around;
+            }
+        }
+        &-item{
+            margin-bottom: 120px;
+            flex: 0 1 360px;
+            &__img{
+                width:100%;
+                content:'';
+                display: block;
+                height:230px;
+                background-size: cover!important;
+                margin-bottom:30px;
+            }
+            &-desc{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom:30px;
+                &-left{
+                    &__title {
+                        font-size: 24px;
+                        color: #222;
+                        font-size: 'MuseoSansMedium';
+                        margin-bottom: 15px;
+                    }
+                    &-block{
+                        display: flex;
+                        align-items: center;
+                        &__img{
+                            width: 24px;
+                            margin-right: 10px;
+                        }
+                        &__text{
+                            font-size: 16px;
+                        }
+                    }
+                }
+                &-right{
+                    &-block{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 15px;
+                        &__img{
+                            width: 24px;
+                            margin-right: 10px;
+                        }
+                        &__text{
+                            font-size: 16px;
+                            font-family: 'MuseoSansMedium';
+                            color:#222;
+                        }
+                    }
+                    &__text{
+                        font-size: 12px;
+                        color: #595959;
+                        & span{
+                            font-family: 'MuseoSansMedium';
+                        }
+                    }
+                }
+            }
+            &-but{
+                @include phones{
+                    text-align: center;
+                }
+                &__link{
+                    font-size: 16px;
+                    color:#222;
+                    font-family: 'MuseoSansMedium';
+                    padding: 18px 36px;
+                    background: #fff;
+                    border: 1px solid #DB3F02;
+                    border-radius:2px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

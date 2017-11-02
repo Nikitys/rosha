@@ -1,0 +1,19 @@
+@import 'common/_mixins.scss';
+@import 'common/normalize';
+@import 'common/adj';
+@import 'common/fonts';
+@import 'common/hamburgers/hamburgers';
+@import 'common/slick/slick';
+@import 'common/slick/slick-theme';
+//блоки
+@import 'common/sections/menu';
+@import 'common/sections/footer';
+//страницы
+@import 'common/pages/index';
+@import 'common/pages/about';
+@import 'common/pages/gallary';
+@import 'common/pages/contacts';
+@import 'common/pages/poselok';
+@import 'common/pages/uchastok';
+@import 'common/pages/actions';
+@import 'common/pages/action';

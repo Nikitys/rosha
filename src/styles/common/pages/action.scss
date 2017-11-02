@@ -1,0 +1,55 @@
+.action{
+  &-header{
+    background: url(../images/action.jpg) center center no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 60px;
+  }
+  &-main{
+    max-width: 650px;
+    margin-bottom: 90px;
+    &__date{
+      font-size: 12px;
+      color: #909090;
+      margin-bottom: 15px;
+    }
+    &__title{
+      font-size: 36px;
+      color: #222222;
+      margin-bottom: 30px;
+    }
+    &-text{
+      font-size: 18px;
+      color:#595959;
+      &__p{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  &-bot{
+    &-title{
+      display: flex;
+      align-items: center;
+      margin-bottom:60px;
+      &__img{
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+        margin-right: 35px;
+        & img{
+          max-width:32px;
+        }
+      }
+      &__text{
+        font-family: 'MuseoSansMedium';
+        font-size: 24px;
+        color:#222;
+      }
+    }
+  }
+}

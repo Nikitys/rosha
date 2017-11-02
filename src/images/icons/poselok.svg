@@ -1,0 +1,28 @@
+<svg width="418" height="435" viewBox="0 0 418 435" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>path138</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6701 382)">
+<g id="path138" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="matrix(0.133333 0 0 -0.133333 6721 13)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(0.133333 0 0 -0.133333 6721 13)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(0.133333 0 0 -0.133333 6721 13)" fill="#7FA61D"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="6701" y="-382" width="419" height="436" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="10" dy="10"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M -0.000338419 320.683L 74.8529 881.461L 223.866 2000.38L 756.846 2300.93L 1662.01 2812.5L 2685 2704.29L 2532.52 1255.66L 2400.14 -0.000338925L -0.000338419 320.683Z"/>
+<path id="path1_stroke_2x" d="M -0.000338419 320.683L -2.649 300.859L -22.4703 303.508L -19.8245 323.329L -0.000338419 320.683ZM 74.8529 881.461L 94.6778 878.821L 94.677 878.815L 74.8529 881.461ZM 223.866 2000.38L 204.041 2003.02L 205.357 2012.9L 214.042 2017.8L 223.866 2000.38ZM 756.846 2300.93L 766.686 2283.52L 766.678 2283.52L 766.67 2283.51L 756.846 2300.93ZM 1662.01 2812.5L 1652.17 2829.91L 1657.75 2833.06L 1664.11 2832.39L 1662.01 2812.5ZM 2685 2704.29L 2687.1 2724.18L 2706.98 2722.07L 2704.89 2702.19L 2685 2704.29ZM 2532.52 1255.66L 2552.41 1253.57L 2552.41 1253.56L 2532.52 1255.66ZM 2400.14 -0.000338925L 2420.03 -2.09723L 2417.88 -22.5475L 2397.49 -19.8242L 2400.14 -0.000338925ZM -19.8245 323.329L 55.0287 884.107L 94.677 878.815L 19.8238 318.037L -19.8245 323.329ZM 55.0279 884.101L 204.041 2003.02L 243.691 1997.74L 94.6778 878.821L 55.0279 884.101ZM 214.042 2017.8L 747.022 2318.36L 766.67 2283.51L 233.689 1982.96L 214.042 2017.8ZM 747.005 2318.35L 1652.17 2829.91L 1671.85 2795.09L 766.686 2283.52L 747.005 2318.35ZM 1664.11 2832.39L 2687.1 2724.18L 2682.9 2684.4L 1659.91 2792.61L 1664.11 2832.39ZM 2704.89 2702.19L 2552.41 1253.57L 2512.63 1257.75L 2665.11 2706.38L 2704.89 2702.19ZM 2552.41 1253.56L 2420.03 -2.09723L 2380.25 2.09655L 2512.63 1257.76L 2552.41 1253.56ZM 2397.49 -19.8242L -2.649 300.859L 2.64833 340.507L 2402.79 19.8235L 2397.49 -19.8242Z"/>
+</defs>
+</svg>

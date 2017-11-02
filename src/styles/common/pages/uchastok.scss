@@ -1,0 +1,209 @@
+.uch{
+  margin-bottom:90px;
+  &-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include tablets{
+      justify-content: space-around;
+    }
+  }
+  &__title{
+    font-family: 'MuseoSansMedium';
+    font-size: 36px;
+    color:#222;
+    margin-bottom: 10px;
+  }
+  &__post-title{
+    font-size: 16px;
+    color:#222;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    &:before{
+      content: '';
+      background: #7FA61D;
+      display: inline-block;
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+  }
+  &-left{
+    flex: 0 1 360px;
+    @include tablets{
+     flex:0 1 auto;
+    }
+    &-but{
+      & .about-main-footer-but{
+        margin-top: 0;
+      }
+    }
+    &-list{
+
+    }
+    &-item{
+      padding-left: 97px;
+      position: relative;
+      padding-top: 10px;
+      margin-bottom: 40px;
+      &__img{
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+        border-radius: 50%;
+        position: absolute;
+        left:0;
+        top:-10px;
+        & img{
+          width: 24px;
+        }
+      }
+      &__title{
+        font-size: 24px;
+        font-family: 'MuseoSansMedium';
+        margin-bottom: 15px;
+      }
+      &__text{
+        color:#222222;
+
+      }
+    }
+  }
+  &-right{
+    flex: 0 1 455px;
+    &__img{
+      max-width: 100%;
+    }
+    &-fot{
+      display: flex;
+      justify-content: space-around;
+      &-link{
+        &__img{
+          margin-right: 15px;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #222222;
+        font-size: 14px;
+        text-decoration-line: underline;
+      }
+    }
+  }
+  &-bot{
+    & .container{
+      display: flex;
+      flex-wrap: wrap;
+      @include tablets{
+        justify-content: space-around;
+      }
+    }
+    padding-bottom: 90px;
+    &-left{
+      flex: 0 1 450px;
+      @include tablets{
+        margin-bottom:30px;
+      }
+      &-item{
+        padding-left: 96px;
+        position: relative;
+        &--last{
+          margin-top: 100px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      &-bot{
+        &-item{
+
+          &__price{
+            font-size: 24px;
+            font-family: 'MuseoSansMedium';
+            color: #7A9E1D;
+            margin-bottom: 10px;
+          }
+          &__text{
+            font-size: 16px;
+            color: #595959;
+
+          }
+        }
+      }
+      &__img{
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+        border-radius: 50%;
+        position: absolute;
+        left:0;
+        top:0px;
+        & img{
+          max-width: 24px;
+        }
+      }
+      &__title{
+        font-family: 'MuseoSansMedium';
+        font-size: 36px;
+        color:#222;
+        margin-bottom:30px;
+        & span{
+          color:#F07C00;
+        }
+      }
+      &-block{
+        display: flex;
+        align-items: center;
+        &__img{
+          margin-right: 15px;
+        }
+        &__text{
+          color: #222222;
+          font-size: 12px;
+        }
+      }
+    }
+    &-right{
+      &-but{
+        & .about-main-footer-but{
+          margin-top:0;
+        }
+      }
+    }
+  }
+}
+.page-uch-bot-right-item__title{
+  font-size: 16px;
+}
+.page-uch-bot-right-item-block{
+  position: relative;
+}
+.page-uch-bot-right-item-block-input{
+  font-family: dinmedium;
+  border: 1px solid #BDBDBD;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width:100%;
+  padding:15px;
+  box-sizing:border-box;
+}
+.page-uch-bot-right-item-block-slide{
+  position: relative;
+  bottom: 0;
+}
+.page-uch-bot-right-item{
+  margin-bottom:40px;
+}
+.page-uch-bot-right-item__title{
+  margin-bottom:15px;
+}
