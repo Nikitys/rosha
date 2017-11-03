@@ -13,11 +13,16 @@ html
 
   body
     .wrapper 
-      a(href="#").main-tel
+      a(data-fancybox, data-src="#popup-callback", href="javascript:;").main-tel
         img.main-tel__img(src="assets/images/icons/main-tel.svg", alt="")
-      include common/menu.pug
+      include common/menu
       block content
     block footer
+    include common/popup
   script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
   script(src="assets/scripts/common/slick.min.js")
+  script(src="assets/scripts/common/nouislider.min.js")
+  script(src="assets/scripts/common/wNumb.js")
+  script(src="assets/scripts/common/jquery.fancybox.min.js")
+  script(src="assets/scripts/common/jquery.mask.min.js")
   script(src="assets/scripts/main.js")

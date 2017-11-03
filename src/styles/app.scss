@@ -5,9 +5,12 @@
 @import 'common/hamburgers/hamburgers';
 @import 'common/slick/slick';
 @import 'common/slick/slick-theme';
+@import 'common/nouislider';
+@import 'common/jquery.fancybox';
 //блоки
 @import 'common/sections/menu';
 @import 'common/sections/footer';
+@import 'common/sections/popup';
 //страницы
 @import 'common/pages/index';
 @import 'common/pages/about';

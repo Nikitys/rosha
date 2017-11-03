@@ -46,17 +46,17 @@ block content
                     .uch-bot-left__img
                         img(src="assets/images/icons/pie-chart.svg", alt="")
                     .uch-bot-left-bot-item
-                        .uch-bot-left-bot-item__price 120 750 руб.
+                        .uch-bot-left-bot-item__price.pay-per-month 120 750 руб.
                         .uch-bot-left-bot-item__text Ежемесячный платеж
                     .uch-bot-left-bot-item
-                        .uch-bot-left-bot-item__price 3 895 руб.
+                        .uch-bot-left-bot-item__price.pay-per-day 3 895 руб.
                         .uch-bot-left-bot-item__text Ежеджевный платеж
             .uch-bot-right
                 .page-uch-bot-right-item
                     .page-uch-bot-right-item__title Первоночальный взнос
                     .page-uch-bot-right-item-block
                         #page-uch-bot-right-item-block-slide1.page-uch-bot-right-item-block-slide
-                        input#page-uch-bot-right-item-block-input1.page-uch-bot-right-item-block-input(type="text", value="20", data-min="{$max_payment*0.3}", data-max="{$max_payment}", data-add="{$electricity_price+$roads_price*$_modx->resource.tv_square}")
+                        input#page-uch-bot-right-item-block-input1.page-uch-bot-right-item-block-input(type="text", value="20", data-min="1000", data-max="300000", data-add="100")
                 .page-uch-bot-right-item
                     .page-uch-bot-right-item__title Период рассрочки
                     .page-uch-bot-right-item-block

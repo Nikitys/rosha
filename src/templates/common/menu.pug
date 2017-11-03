@@ -1,5 +1,28 @@
-- var navItems = ['О поселке', 'Купить участок', 'Фотогалерея', 'Спецпредложения', 'Как добраться' ];
-
+//var navItems = ['О поселке', 'Купить участок', 'Фотогалерея', 'Спецпредложения', 'Как добраться' ];
+-
+    var navItems = [
+    {
+    name: "О поселке",
+    link: "about"
+    },
+    {
+    name: "Купить участок",
+    link: "item"
+    },
+    {
+    name: "Фотогалерея",
+    link: "gallary"
+    },
+    {
+    name: "Спецпредложения",
+    link: "actions"
+    },
+    {
+    name: "Как добраться",
+    link: "contacts"
+    },
+    ]
+-
 .menu
     .menu--mob
         button.hamburger.hamburger--elastic(type="button")
@@ -11,10 +34,10 @@
             img(src="assets/images/logo.svg", alt="").menu-logo__img
         nav.menu-nav
             each item,index in navItems
-                a(href="#").menu-nav-link
+                a(href=`${item.link}.html`).menu-nav-link
                     img.menu-nav-link__img(src=`assets/images/icons/nav${index}.svg`, alt="")
-                    span.menu-nav-link__text=item
-        a.menu-drone(href="#")
+                    span.menu-nav-link__text=item.name
+        a.menu-drone(data-fancybox, data-src="#popup-min", href="javascript:;")
             img.menu-drone__img(src="assets/images/drone.svg", alt="")
             span.menu-drone__text Видео–обзор <span> территории</span> с квадрокоптера
         a(href="tel:+78129391199").menu__tel +7 (812) 939 11 99

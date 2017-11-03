@@ -1,0 +1,89 @@
+.popup{
+  &-main{
+    max-width: 450px;
+    &__title{
+      font-family: 'MuseoSansMedium';
+      font-size: 24px;
+      color: #222222;
+      margin-bottom: 45px;
+      & span{
+        color: #F07C00;
+      }
+    }
+    &-form{
+      &__input{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 18px;
+        font-size: 16px;
+        color:#222;
+        border: 1px solid #BDBDBD;
+        border-radius: 2px;
+        margin-bottom: 30px;
+        &::-webkit-input-placeholder {
+          font-size:16px;
+          color:#222;
+        }
+        &::-moz-placeholder          {
+          font-size:16px;
+          color:#222;
+
+        }
+        &:-moz-placeholder           {
+          font-size:16px;
+          color:#222;
+        }
+        &:-ms-input-placeholder      {
+          font-size:16px;
+          color:#222;
+        }
+      }
+      &__submit{
+        font-size: 16px;
+        color:#fff;
+        font-family: 'MuseoSansMedium';
+        background: #DB3F02;
+        padding: 18px 36px;
+        display: inline-block;
+        border-radius: 2px;
+        border: 1px solid #DB3F02;
+        transition: all .3s;
+        cursor: pointer;
+        &:hover{
+          background: #fff;
+          color:#222;
+        }
+      }
+    }
+  }
+  &-min{
+    &-block{
+      padding-left: 76px;
+      position: relative;
+      &-img{
+        position: absolute;
+        left:0;
+        top: 0;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 10px 10px 30px rgba(34, 34, 34, 0.15);
+      }
+      &__title{
+        font-size: 24px;
+        color: #222;
+        margin: 15px 0;
+        font-family: 'MuseoSansMedium';
+      }
+      &__text{
+        font-size:14px;
+        color:#595959;
+        width: 260px;
+      }
+    }
+  }
+}

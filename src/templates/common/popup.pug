@@ -1,0 +1,13 @@
+.popup-main(style="display: none;")#popup-callback
+    .popup-main__title Оставьте заявку на <br> <span>просмотр нашего поcёлка</span>
+    form.popup-main-form
+        input(type="text", placeholder="Как к вам обращаться?").popup-main-form__input
+        input(type="text", placeholder="Ваш e-mail").popup-main-form__input
+        input(type="text", placeholder="Номер телефона").popup-main-form__input.popup-main-form__input--phone
+        input(type="submit", value="Записаться на просмотр").popup-main-form__submit
+.popup-min(style="display: none;")#popup-min
+    .popup-min-block
+        .popup-min-block-img
+            img(src="assets/images/icons/email1.svg", alt="").popup-min-block-img__image
+        .popup-min-block__title Спасибо за заявку!
+        .popup-min-block__text Наш менеджер скоро свяжется с Вами, чтобы уточнить остальные детали просмотра.
